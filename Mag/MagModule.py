@@ -1,3 +1,5 @@
+#There was a simpler way to do this but i wanted to try it this way.
+
 def MagModule(): 
    
     while True:
