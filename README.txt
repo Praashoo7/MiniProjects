@@ -7,7 +7,7 @@
 	    - In Second Option(dmycalculateMModule.py) This Calculates Total Years, Months, Weeks and Days Between Two 
               Dates Given by the User.
             
-	    - There is no use of Implicit Modules Provided by Python. The Implicit Python 	
+	    - There is no use of Implicit Modules Provided by Python. 	
             - Module is Only used to Aquire the Current Date and only in First Selection(dmycalculateCModule.py).
 
 3. FilterMapReduce(Module) :- Own created Filter, Map and Reduce Functions.
