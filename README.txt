@@ -8,7 +8,7 @@
               Dates Given by the User.
             
 	    - There is no use of Implicit Modules Provided by Python. 	
-            - Module is Only used to Aquire the Current Date and only in First Selection(dmycalculateCModule.py).
+            - The Implicit Python Module is Only used to Aquire the Current Date and only in First Selection(dmycalculateCModule.py).
 
 3. FilterMapReduce(Module) :- Own created Filter, Map and Reduce Functions.
 
