@@ -1,11 +1,11 @@
 import time
-
+   
 def charsMod():	
     
     s=time.time()
-    str=input("")
+    string=input("")
     
-    list=[c for c in str]    
+    list=[c for c in string]    
     n=len(list)
     
     
@@ -186,11 +186,17 @@ def charsMod():
                                                                                                                                                                                                                 quit()
                                                                                                                                                                                                             else:
                                                                                                                                                                                                                 if list[25]=="Z" or list[25]=="z":
-                                                                                                                                                                                                                    print("\nSuccess..")
-                                                                                                                                                                                                                    e=time.time()
-                                                                                                                                                                                                                    print("Time is : ",e-s)
-                                                                                                                                                                                                                    print("WPM : ",(26/5)/((e-s)/60))
-                                                                                                                                                                                                                    quit()
+                                                                                                                                                                                                                    if n>26:
+                                                                                                                                                                                                                        print("\nWRONG CAHARCHTER")
+                                                                                                                                                                                                                        e=time.time()
+                                                                                                                                                                                                                        print("Time is : ",e-s)
+                                                                                                                                                                                                                        quit()
+                                                                                                                                                                                                                    else:
+                                                                                                                                                                                                                        print("\nSuccess..")
+                                                                                                                                                                                                                        e=time.time()
+                                                                                                                                                                                                                        print("Time is : ",e-s)
+                                                                                                                                                                                                                        print("WPM : ",(26/5)/((e-s)/60))
+                                                                                                                                                                                                                        quit()
                                                                                                                                                                                                                 else:
                                                                                                                                                                                                                     print("\nWRONG CAHARCHTER")
                                                                                                                                                                                                                     e=time.time()
