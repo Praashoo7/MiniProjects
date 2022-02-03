@@ -7,7 +7,7 @@ def main():
     
     print("Press <ENTER> after You're finished typing..\n")
     try:
-        n=int(input("To Strat Typing, Enter 1 and <ENTER> and Start Typing..\n\n"))
+        n=int(input("To Start Typing, Enter 1 and <ENTER> and Start Typing..\n\n"))
         if n==1:
             print()
             cm.charsMod()
