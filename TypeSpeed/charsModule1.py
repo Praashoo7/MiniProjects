@@ -29,7 +29,7 @@ def charsMod():
         if n==0:
             print("\nINVALID INPUT")
         elif n>26:
-            print("\nMORE CHARACHTERS!")
+            print("\nEXTRA CHARACHTERS!")
             exit()
     
         for i in range(len(list)):
