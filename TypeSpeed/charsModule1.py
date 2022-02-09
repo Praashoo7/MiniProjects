@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import openpyxl
 from openpyxl import Workbook
+from ctypes import windll
 
 def charsMod():	
     
@@ -19,6 +20,10 @@ def charsMod():
     
     if n==1:
     
+        if windll.user32.OpenClipboard(None):
+            windll.user32.EmptyClipboard()
+            windll.user32.CloseClipboard()
+        
         s=time.time()
         str=input("")
         string=str.lower()
