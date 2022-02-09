@@ -7,5 +7,5 @@ after a successful test.
 chars.py             MAIN_FILE
 charsModule.py       MODULE
 charsModule1.py      ALTERNATE_MODULE
-                     (charsModule1.py is same as the charsModule.py except it gives more Positional information of Incorrectly placed charachters or Missing charachters and it is 
-                     a larger code.)
+                     (charsModule1.py is same as the charsModule.py except it gives more Positional information of Incorrectly placed charachters or Missing charachters and 
+                     it is a larger code.)
