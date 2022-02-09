@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import openpyxl
 from openpyxl import Workbook
+import pyperclip
 
 def charsMod():	
     
@@ -21,6 +22,7 @@ def charsMod():
     
     if n==1:
     
+        pyperclip.copy('')
         s=time.time()
         str=input("")
         string=str.lower()
