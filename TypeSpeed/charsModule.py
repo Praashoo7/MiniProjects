@@ -36,6 +36,9 @@ def charsMod():
             exit()
         else:
             print("\nWRONG CHARACHTER")
+            e=time.time()
+            t=e-s
+            print("Time is : ",e-s)
 
     else:
         
