@@ -11,10 +11,14 @@ def charsMod():
     data=pd.read_excel("TypeBoard.xlsx")
     namelist=data["Name"].tolist()
     
-    for n in namelist:
-        if n==name:
-            print("\nName Already Exists\n")
-            exit()
+    if len(name)==0:
+        print("\nINVALID NAME!")
+        exit()
+    else:
+        for n in namelist:
+            if n==name:
+                print("\nName Already Exists\n")
+                exit()
     
     n=int(input("\nTo Start Typing, Enter 1 and <ENTER> and Start Typing..\n\n"))
     
@@ -33,6 +37,9 @@ def charsMod():
         
         if n==0:
             print("\nINVALID INPUT")
+        elif string.isalpha()==False:
+            print("\nINVALID CHARACHTER!")
+            exit()
         elif n>26:
             print("\nEXTRA CHARACHTERS!")
             exit()
