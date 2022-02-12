@@ -35,6 +35,7 @@ def charsMod():
         
         if n==0:
             print("\nINVALID INPUT")
+            exit()
         elif string.isalpha()==False:
             print("\nINVALID CHARACHTER!")
             exit()
