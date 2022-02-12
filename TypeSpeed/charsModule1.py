@@ -10,7 +10,7 @@ def charsMod():
 
     data=pd.read_excel("TypeBoard.xlsx")
     namelist=data["Name"].tolist()
-    
+
     if len(name)==0:
         print("\nINVALID NAME!")
         exit()
