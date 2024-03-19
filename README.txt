@@ -1,4 +1,4 @@
-0. DateCalculator(WithoutUsingModule) :- There are Two Selections:
+1. DateCalculator(WithoutUsingModule) :- There are Two Selections:
 	          
             - In First Option(dmycalculateCModule.py) This Calculates Total Years, Months, Weeks and Days From Current(Today) 
 	      Date, Only the starting date is Given By the User.
@@ -9,16 +9,16 @@
             - The Implicit Python Module is Only used to Aquire the Current Date and only in First 
 	      Selection(dmycalculateCModule.py).
 	    
-1. FilterMapReduce(Module) :- Own created Filter, Map and Reduce Functions.
+2. FilterMapReduce(Module) :- Own created Filter, Map and Reduce Functions.
 
-2. Mag :- Guesses the Number user has choosen depending on the given Inputs, Done using Basic IF-Else.
+3. Mag :- Guesses the Number user has choosen depending on the given Inputs, Done using Basic IF-Else.
 
-3. MorceEncryptionDecryption :- Converts given String into Morce Code and Given Morce Code into a string.
+4. MorceEncryptionDecryption :- Converts given String into Morce Code and Given Morce Code into a string.
 
-4. StringPatternPrint :- Converts any Given String into Star Pattern.
+5. StringPatternPrint :- Converts any Given String into Star Pattern.
                          All Alphabets, All Numbers and Some Symbols are Included.
 
-5. TypeSpeed :- This is a Typing Speed Test.
+6. TypeSpeed :- This is a Typing Speed Test.
                 This is used to calculate the typing speed of the user. After the test it shows the total time taken
                 and WPM (Words per minute). There is also a Leader Board of Top 5 people which is shown
                 after a successful test. 
