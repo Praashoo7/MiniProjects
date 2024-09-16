@@ -1,4 +1,4 @@
-1. FilterMapReduce(Module) :- Own created Filter, Map and Reduce Functions.
+1. FilterMapReduce(Module) :- Custom created Filter, Map and Reduce Functions.
 
 2. MorceEncryptionDecryption :- Converts given String into Morce Code and Given Morce Code into a string.
 
